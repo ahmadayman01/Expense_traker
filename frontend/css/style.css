@@ -1,0 +1,31 @@
+/* Your custom styles go here.
+   Use Bootstrap classes first, and write your own CSS only when you need to. */
+/* .spinner-border
+{
+   margin-left: 50%;
+   margin-top: 2%;
+} */
+.expense-row:hover {
+    background-color: #e9ecef !important;
+    cursor: pointer;
+    color: black;
+}
+.expenses-scroll {
+    overflow-x: auto;
+}
+.expenses-scroll .row {
+    min-width: 650px;
+}
+.summary-grid
+{
+   display: grid;
+   grid-template-columns: repeat(3, 1fr );
+   gap: 1rem;
+} 
+
+
+@media  (max-width : 786px) {
+   .summary-grid{
+      grid-template-columns: 1fr;
+   }
+}
